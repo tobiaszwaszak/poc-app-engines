@@ -1,4 +1,10 @@
 PATH
+  remote: apps/bot
+  specs:
+    bot (0.1.0)
+      rails (>= 7.0.4)
+
+PATH
   remote: apps/calendar
   specs:
     calendar (0.1.0)
@@ -185,6 +191,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
+  bot!
   calendar!
   debug
   importmap-rails

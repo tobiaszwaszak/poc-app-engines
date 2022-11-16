@@ -66,3 +66,4 @@ end
 
 
 gem 'calendar', path: 'apps/calendar'
+gem 'bot', path: 'apps/bot'
